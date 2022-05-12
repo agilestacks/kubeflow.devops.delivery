@@ -1,0 +1,16 @@
+baseURL: http://kubeflow.devops.delivery/
+languageCode: en-us
+title: Kubeflow
+
+# https://themes.gohugo.io/themes/hugo-book/
+theme: hugo-book
+
+# menu:
+#   after:
+#     - name: "EPAM Kubeflow on GitHub"
+#       url: "..."
+#       weight: 10
+
+params:
+  BookSection: "*"
+  BookToC: false
