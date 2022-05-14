@@ -15,10 +15,12 @@ Don't have cluster? Don't worry we provide few templates that you can use as an 
 
 ## Kubeflow Deployments
 
-You can find kubeflow packaged as a deployment template (we call it a stack).
+Choose one of the pre-built kubeflow templates
 
-1. [Kubeflow on GKE](#) - _TODO: put link here_ - to install Kubeflow on existing GKE cluster. 
-2. Kubeflow on EKS - Coming soon
+Kubeflow Stack | Description | Link
+:--------------|:------------|:-----
+|[Kubeflow on GKE](#) - _TODO: put link here_| Ready to deploy a kubeflow on empty GKE cluster. It will install ingress controller, istio and all Kubeflow components | ![Open with CloudShell](https://gstatic.com/cloudssh/images/open-btn.svg)|
+
 
 ### Kubeflow Components
 
