@@ -19,7 +19,7 @@ Choose one of the pre-built kubeflow templates
 
 Kubeflow Stack | Description | Link
 :--------------|:------------|:-----
-|[Kubeflow on GKE](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:kubeflow-preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gke) | Ready to deploy a kubeflow on empty GKE cluster. It will install ingress controller, istio and all Kubeflow components | <a href="https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:kubeflow-preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gke"><img src="https://gstatic.com/cloudssh/images/open-btn.svg" alt="Open with CloudShell"></a>
+|[Kubeflow on GKE](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:kubeflow-preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp) | Ready to deploy a kubeflow on empty GKE cluster. It will install ingress controller, istio and all Kubeflow components | <a href="https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:kubeflow-preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp"><img src="https://gstatic.com/cloudssh/images/open-btn.svg" alt="Open with CloudShell"></a>
 
 ### Kubeflow Components
 
