@@ -1,5 +1,5 @@
 ---
-title: Kubeflow Stacks
+title: Kubeflow
 ---
 
 # Available Kubeflow Stacks
