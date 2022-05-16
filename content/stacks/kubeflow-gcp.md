@@ -17,8 +17,7 @@ The easiest way how to get started is via Cloud Shell Edititor. Choose from the 
 
 Kubeflow Stack | Description | Link
 :--------------|:------------|:-----
-Kubeflow cluster v1.2 | This is our latest Kubeflow stack available | 
-(https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:kubeflow-preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp)
+Kubeflow cluster v1.2 | This is our latest Kubeflow stack available | [![CloudShell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:kubeflow-preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp)
 
 #### Start a new cloud shell session
 
