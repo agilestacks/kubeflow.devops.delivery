@@ -60,6 +60,10 @@ When you run a `hub stack init` Then `hub` will read a components described in `
 
 When you run `hub stack configure` (or implicitly during `hub stack deploy`), then `gcp` extension will generate a new domain name and store it in the form of `HUB_DOMAIN_NAME` variable. Actually all variables has been pased to the `hub.yaml` via `.env` file. You don't want to put your `.env` file in the git. 
 
-This domain name will be used by the `hub` as a natural ID of your deployment. If you have your own domain available as a DNS zone in GCP, then you can refer it via `hub stack configure --domain-name kubeflow.example.com`. 
+This domain name will be used by the `hub` as a natural ID of your deployment. If you have your own domain available as a DNS zone in GCP, then you can set it by running:
 
-TLS is a required by Kubeflow. Every deployment has been backed by `Lets Encrypt` certificate. 
+```bash
+hub stack configure --domain-name kubeflow.example.com
+```
+
+TLS is a required by Kubeflow. It has been managed by `cert-manager` component. We use Lets Encrypt as the ACME provider. 
