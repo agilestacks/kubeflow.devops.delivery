@@ -17,29 +17,28 @@ Don't have cluster? Don't worry we provide few templates that you can use as an 
 
 Choose one of the pre-built kubeflow templates
 
-Kubeflow Stack | Description | Link
-:--------------|:------------|:-----
-|[Kubeflow on GKE](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp) | Ready to deploy a kubeflow on empty GKE cluster. It will install ingress controller, istio and all Kubeflow components | [![CloudShell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp)
+| Kubeflow Stack | Description | Link |
+| :---           | :---        | :--- |
+| [Kubeflow on GKE](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp) | Ready to deploy a kubeflow on empty GKE cluster. It will install ingress controller, istio and all Kubeflow components | [![CloudShell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/agilestacks/kubeflow-stacks&&cloudshell_git_branch=main&cloudshell_image=gcr.io/superhub/cloud-shell:preview&cloudshell_open_in_editor=hub.yaml&cloudshell_workspace=kubeflow-gcp) |
 
 ### Kubeflow Components
 
 Kubeflow features full ML lifecycle for model training, huper parameter tuning and model serving. Most noticable components of Kubeflow you can find below
 
-Component | Feature
-:---------|:--------
-[Notebooks](https://www.kubeflow.org/docs/components/notebooks/) | Jupyter notebook server 
-[Pipelines](https://www.kubeflow.org/docs/components/pipelines/) | Provides a Python DSL for DAG to run distributed training 
-[Katib](https://www.kubeflow.org/docs/components/katib/) | Hyper parameter tuning
-[Tensorflow Training](https://www.kubeflow.org/docs/components/training/tftraining/) | Tensorflow training operator with `TFJob` custom resource
-[Multi Tenancy](https://www.kubeflow.org/docs/components/multi-tenancy//) | Provides multi user isolation
-[Central Dashboard](https://www.kubeflow.org/docs/components/central-dash/) | Common UI to access all Kubeflow applicaitons
-[ML Metadata](https://www.kubeflow.org/docs/components/pipelines/concepts/metadata/) | Metadata store backed with relational database 
-[Artifacts Store](https://www.kubeflow.org/docs/components/pipelines/concepts/output-artifact/) | Object store (such as Minio) to store results of the trainings
+| Component | Feature |
+| :---      | :---    |
+| [Notebooks](https://www.kubeflow.org/docs/components/notebooks/) | Jupyter notebook server |
+| [Pipelines](https://www.kubeflow.org/docs/components/pipelines/) | Provides a Python DSL for DAG to run distributed training |
+| [Katib](https://www.kubeflow.org/docs/components/katib/) | Hyper parameter tuning |
+| [Tensorflow Training](https://www.kubeflow.org/docs/components/training/tftraining/) | Tensorflow training operator with `TFJob` custom resource |
+| [Multi Tenancy](https://www.kubeflow.org/docs/components/multi-tenancy//) | Provides multi user isolation |
+| [Central Dashboard](https://www.kubeflow.org/docs/components/central-dash/) | Common UI to access all Kubeflow applicaitons |
+| [ML Metadata](https://www.kubeflow.org/docs/components/pipelines/concepts/metadata/) | Metadata store backed with relational database |
+| [Artifacts Store](https://www.kubeflow.org/docs/components/pipelines/concepts/output-artifact/) | Object store (such as Minio) to store results of the trainings |
 
 ![kubeflow](https://github.com/IBM/KubeflowDojo/raw/master/images/kubeflow-dojo.png)
 
-
-## See also:
+## See also
 
 * <https://kubeflow.org>
 * <https://superhub.io>

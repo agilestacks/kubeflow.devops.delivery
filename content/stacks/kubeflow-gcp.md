@@ -1,15 +1,18 @@
-# Kubeflow Stack on GCP
+---
+title: Kubeflow on GCP
+---
+# Kubeflow on GCP
 
 Here we explain how to deploy a Kubeflow into your Google Cloud Platform environment
 
 ## Deployment Prerequisites
 
-* You should be signed in and have an active project in GCP: https://console.cloud.google.com
-* You should have already deployed a GKE cluster. 
- 
+* You should be signed in and have an active project in GCP: <https://console.cloud.google.com>
+* You should have already deployed a GKE cluster.
+
 > Don't have a cluster? Not a problem. We have a GKE stack for you, follow this [link](#)
 
-## Deployment 
+## Deployment
 
 ### Deployment via Cloud Shell
 
@@ -38,7 +41,7 @@ hub stack init
 
 The command will:
 
-1. Download the components described in `hub.yaml` 
+1. Download the components described in `hub.yaml`
 2. Configure this Cloud Shell session for your GCP. It will ask other GCP essentials. It will take Region and Location (zone) from GCP metadat aserver.
 3. You can change settings by modifying `.env` file
 
@@ -50,11 +53,11 @@ Once you are done with the configuration, use the following command to deploy th
 hub stack deploy
 ```
 
-Before the first deployment you will be prompted for few questions. Your settings will be captured in `.env` file. 
+Before the first deployment you will be prompted for few questions. Your settings will be captured in `.env` file.
 
 1. Name of `GKE` cluster in your region. You will see a list of already deployed GKE clusters in your region. For different region, please adjust variables in `.env` file and thern run `hub stack deploy` command again
-2. Name of the storage class (more info [here](https://kubernetes.io/docs/concepts/storage/storage-classes/)) GKE provides several storage classes you will see them 
-3. Other questions... 
+2. Name of the storage class (more info [here](https://kubernetes.io/docs/concepts/storage/storage-classes/)) GKE provides several storage classes you will see them
+3. Other questions...
 
 Once all configuration settings completed it will start the deployment automatically
 
@@ -78,6 +81,6 @@ hub stack deploy
 
 To remove your Kubeflow deployment, please run the following command
 
-```
+```bash
 hub stack undeploy
 ```
