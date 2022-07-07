@@ -1,6 +1,3 @@
----
-title: Kubeflow
----
 # Kubeflow
 
 Kubeflow has been available via stacks of components. At present there is only one stack (for GCP), yet more will come in the near future.
@@ -10,7 +7,7 @@ Kubeflow has been available via stacks of components. At present there is only o
 * You should be signed in and have an active project in GCP: <https://console.cloud.google.com>
 * You should have already deployed a GKE cluster
 
-> Note: there is a separate stack for GKE. It can act as an example, please feel free to customize the stack and deploy it: [link](#)
+> Note: there is a separate stack for GKE. It can act as an example, please feel free to customize the stack and deploy it: [link](https://github.com/agilestacks/kubeflow-stacks/tree/main/examples/gke-cluster)
 
 ## Quick Start
 

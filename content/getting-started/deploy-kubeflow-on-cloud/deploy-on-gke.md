@@ -1,7 +1,7 @@
 ---
-title: Kubeflow on GCP
+title: Kubeflow on GKE
 ---
-# Kubeflow on GCP
+# Kubeflow on GKE
 
 Here we explain how to deploy a Kubeflow into your Google Cloud Platform environment
 
@@ -10,7 +10,7 @@ Here we explain how to deploy a Kubeflow into your Google Cloud Platform environ
 * You should be signed in and have an active project in GCP: <https://console.cloud.google.com>
 * You should have already deployed a GKE cluster.
 
-> Don't have a cluster? Not a problem. We have a GKE stack for you, follow this [link](#)
+> Don't have a cluster? Not a problem. We have a GKE stack for you, follow this [link](https://github.com/agilestacks/kubeflow-stacks/tree/main/examples/gke-cluster)
 
 ## Deployment
 

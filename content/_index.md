@@ -10,7 +10,7 @@ Before setting up Kubeflow you need to have a working Kubenretes cluser (support
 
 Don't have cluster? Don't worry we provide few templates that you can use as an examples for your clusters
 
-1. [Google Kubernets Engine](#) - example of GKE cluster on GCP
+1. [Google Kubernets Engine](https://github.com/agilestacks/kubeflow-stacks/tree/main/examples/gke-cluster) - example of GKE cluster on GCP
 2. Elastic Kubernetes Cluster (coming soon)
 
 ## Kubeflow Deployments
