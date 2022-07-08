@@ -1,4 +1,6 @@
-# Kubeflow Authn HTTP Filter
+# Authn HTTP Filter
+
+## Overview of the Authn HTTP Filter
 
 This is a HTTP filter for Istio (Envoy) that validates User session and redirects to dex for authentication (if invalid).
 

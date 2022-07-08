@@ -1,4 +1,4 @@
-# Kubeflow pipelines
+# Pipelines
 
 ## Overview of the Kubeflow pipelines service
 
@@ -14,13 +14,13 @@ The Kubeflow pipelines service has the following goals:
 
 Enables data scientists to define data pipelines (DAG) using notebook and python. We support only Multi-User isolation.
 
-This component uses [argo](../argo) as the driver for pipelines.
+This component uses [argo](../argo-workflows) as the driver for pipelines.
 
 ## Dependency
 
 Depends on:
 
-* [`argo`](../argo): (Runtime for DAG). Argo dependency is transitive (via CRD)
+* [`argo`](../argo-workflows): (Runtime for DAG). Argo dependency is transitive (via CRD)
 * [`minio`](../minio): (DAG artifacts)
 * [`mysql-pipelines`](../mysql): persistence
 * [`kubeflow-profiles`](../kubeflow-profiles): (backend for multi-user isolation)
@@ -70,5 +70,4 @@ This component uses Kustomize extension and follows common design guidelines for
 
 ## See Also
 
-* [Getting Started](https://www.kubeflow.org/docs/components/pipelines/overview/pipelines-overview/)
-* [Multi User Isolation](https://www.kubeflow.org/docs/components/pipelines/overview/pipelines-overview/)
+* Kubeflow Pipelines [overview](https://www.kubeflow.org/docs/components/pipelines/overview/pipelines-overview/)

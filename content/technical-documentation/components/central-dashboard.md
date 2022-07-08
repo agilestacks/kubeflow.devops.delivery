@@ -1,9 +1,11 @@
-# Kubeflow Central Dashboard
+# Central Dashboard
 
-Kubeflow landing page. It provides following functionality:
+## Overview of the Kubeflow Central Dashboard
+
+[Central Dashboard](https://www.kubeflow.org/docs/components/central-dash/overview/) is Kubeflow landing page. It provides following functionality:
 
 * Web UI to access all Kubeflow components
-* User registration flowA
+* User registration flow
 
 ## Implementation Details
 
@@ -23,9 +25,9 @@ The component has the following directory structure:
 └── role-binding.yaml.template          # RBAC for role bindings
 ```
 
-The component uses an offical Kubeflow distribution Kustomize [scripts]("https://github.com/kubeflow/manifests/") as a and applies patches and additiona resources described in [kustomize.yaml](kustomize.yaml.template) file.
+The component uses an offical Kubeflow distribution Kustomize [scripts](https://github.com/kubeflow/manifests/) and applies patches and additional resources described in [kustomize.yaml](https://github.com/agilestacks/kubeflow-components/blob/main/kubeflow-centraldashboard/kustomization.yaml.template) file.
 
-Where [pre-deploy](pre-deploy) script has been responsible for download tarball from Kubeflow official distribution website.
+Where [pre-deploy](https://github.com/agilestacks/kubeflow-components/blob/main/kubeflow-centraldashboard/pre-deploy) script has been responsible for download tarball from Kubeflow official distribution website.
 
 This component contains a special parameters to enable image pull from private docker registry
 
@@ -45,5 +47,5 @@ The following component level parameters has been defined `hub-component.yaml`
 
 ## See Also
 
-* Kubeflow Central Dashboard [official documentation](https://www.kubeflow.org/docs/components/central-dash/overview/)
+* Central Dashboard [official documentation](https://www.kubeflow.org/docs/components/central-dash/overview/)
 * Project source code on [Github](https://github.com/kubeflow/kubeflow/tree/master/components/centraldashboard)
