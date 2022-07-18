@@ -1,6 +1,6 @@
 baseURL: http://kubeflow.devops.delivery/
 languageCode: en-us
-title: Kubeflow
+title: EPAM Kubeflow
 
 # https://themes.gohugo.io/themes/hugo-book/
 theme: hugo-book

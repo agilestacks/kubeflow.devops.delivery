@@ -13,7 +13,7 @@ Kubeflow features full ML lifecycle for model training, huperparameter tuning an
 | [ML Metadata](ml-metadata) | Metadata store backed with relational database |
 | [Artifacts Store](https://www.kubeflow.org/docs/components/pipelines/concepts/output-artifact/) | Object store (such as Minio) to store results of the trainings |
 
-The ASI Kubeflow distribution also includes components to extend or improve ML lifecycle.
+The EPAM Kubeflow distribution also includes components to extend or improve ML lifecycle.
 
 | Component | Description |
 | :---      | :---    |
