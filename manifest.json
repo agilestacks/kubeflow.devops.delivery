@@ -1,6 +1,6 @@
 {
-  "name": "Kubeflow",
-  "short_name": "Kubeflow",
+  "name": "EPAM Kubeflow",
+  "short_name": "EPAM Kubeflow",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
