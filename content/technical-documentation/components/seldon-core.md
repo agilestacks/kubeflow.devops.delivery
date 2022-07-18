@@ -23,7 +23,6 @@ The following component level parameters has been defined `hub-component.yaml`
 | Name | Description | Default Value |
 | :--- | :---        | :---          |
 | `dns.domain` | Domain name of the kubeflow stack | |
-
 | `component.seldon.namespace` | | `seldon-system` |
 | `component.seldon.version` | | `1.5.0` |
 | `executor.resources.cpuLimit` | | `500m` |

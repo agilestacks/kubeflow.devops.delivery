@@ -1,3 +1,6 @@
+---
+title: AutoML
+---
 # AutoML (Katib)
 
 Katib is a Kubernetes-native project for automated machine learning (AutoML).
